@@ -1,0 +1,9 @@
+c:\dev\ftp-file-transfer\FtpFileTransfer\bin\Debug\FtpFileTransfer.exe.config
+c:\dev\ftp-file-transfer\FtpFileTransfer\bin\Debug\FtpFileTransfer.exe
+c:\dev\ftp-file-transfer\FtpFileTransfer\bin\Debug\FtpFileTransfer.pdb
+c:\dev\ftp-file-transfer\FtpFileTransfer\bin\Debug\FluentCommandLineParser.dll
+c:\dev\ftp-file-transfer\FtpFileTransfer\bin\Debug\FluentCommandLineParser.pdb
+c:\dev\ftp-file-transfer\FtpFileTransfer\bin\Debug\FluentCommandLineParser.xml
+c:\dev\ftp-file-transfer\FtpFileTransfer\obj\Debug\FtpFileTransfer.csprojResolveAssemblyReference.cache
+c:\dev\ftp-file-transfer\FtpFileTransfer\obj\Debug\FtpFileTransfer.exe
+c:\dev\ftp-file-transfer\FtpFileTransfer\obj\Debug\FtpFileTransfer.pdb

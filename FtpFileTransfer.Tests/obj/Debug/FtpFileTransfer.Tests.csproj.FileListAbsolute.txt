@@ -1,0 +1,10 @@
+c:\dev\ftp-file-transfer\FtpFileTransfer.Tests\bin\Debug\FtpFileTransfer.Tests.dll
+c:\dev\ftp-file-transfer\FtpFileTransfer.Tests\bin\Debug\FtpFileTransfer.Tests.pdb
+c:\dev\ftp-file-transfer\FtpFileTransfer.Tests\bin\Debug\FtpFileTransfer.exe
+c:\dev\ftp-file-transfer\FtpFileTransfer.Tests\bin\Debug\FluentCommandLineParser.dll
+c:\dev\ftp-file-transfer\FtpFileTransfer.Tests\bin\Debug\FtpFileTransfer.pdb
+c:\dev\ftp-file-transfer\FtpFileTransfer.Tests\bin\Debug\FluentCommandLineParser.pdb
+c:\dev\ftp-file-transfer\FtpFileTransfer.Tests\bin\Debug\FluentCommandLineParser.xml
+c:\dev\ftp-file-transfer\FtpFileTransfer.Tests\obj\Debug\FtpFileTransfer.Tests.csprojResolveAssemblyReference.cache
+c:\dev\ftp-file-transfer\FtpFileTransfer.Tests\obj\Debug\FtpFileTransfer.Tests.dll
+c:\dev\ftp-file-transfer\FtpFileTransfer.Tests\obj\Debug\FtpFileTransfer.Tests.pdb
