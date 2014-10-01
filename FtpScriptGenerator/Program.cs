@@ -40,8 +40,7 @@ namespace FtpScriptGenerator
 
             fclp.Setup(arguments => arguments.Password)
                 .As('p', "password")
-                .WithDescription("The password to use to authenticate against the hosty")
-                .Required();
+                .WithDescription("The password to use to authenticate against the host");
 
             fclp.Setup(arguments => arguments.OutputDir)
                 .As('o', "output")

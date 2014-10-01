@@ -18,7 +18,12 @@ namespace FtpScriptGenerator
             {
                 writer.WriteLine("open " + Host);
                 writer.WriteLine(Username);
-                writer.WriteLine(Password);
+
+                if (string.IsNullOrEmpty(Password) == false)
+                {
+                    writer.WriteLine(Password);
+                }
+                
                 writer.WriteLine("cd " + DestinationRootDirectory);
 
                 foreach (var file in Files)
