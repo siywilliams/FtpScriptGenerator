@@ -34,13 +34,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="FluentCommandLineParser">
-      <HintPath>packages\FluentCommandLineParser.1.2.2\lib\net35\FluentCommandLineParser.dll</HintPath>
+      <HintPath>..\packages\FluentCommandLineParser.1.2.2\lib\net35\FluentCommandLineParser.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
   </ItemGroup>
