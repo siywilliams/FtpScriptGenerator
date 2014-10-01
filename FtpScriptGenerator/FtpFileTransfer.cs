@@ -13,10 +13,11 @@ namespace FtpScriptGenerator
             {
                 foreach (var dir in sortedFiles)
                 {
+                    batchFile.WriteLine("cd " + args.SourceRootDir + @"\" + dir.Name);
+
                     var script = new FtpScript
                     {
                         DestinationRootDirectory = args.DestinationRootDir + @"\" + dir.Name,
-                        SourceRootDirectory = args.SourceRootDir + @"\" + dir.Name,
                         FilePath = args.OutputDir + @"\" + dir.Name + ".script",
                         Files = dir.Select(file => file.Filename).ToList(),
                         Host = args.Host,

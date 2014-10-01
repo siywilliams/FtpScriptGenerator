@@ -10,14 +10,12 @@ namespace FtpScriptGenerator
         public string Username { get; set; }
         public string Password { get; set; }
         public string DestinationRootDirectory { get; set; }
-        public string SourceRootDirectory { get; set; }
         public IEnumerable<string> Files { get; set; }
 
         public void Write()
         {
             using (var writer = File.CreateText(FilePath))
             {
-                writer.WriteLine("cd " + SourceRootDirectory);
                 writer.WriteLine("open " + Host);
                 writer.WriteLine(Username);
                 writer.WriteLine(Password);
