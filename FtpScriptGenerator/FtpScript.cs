@@ -18,14 +18,14 @@ namespace FtpScriptGenerator
             using (var writer = File.CreateText(FilePath))
             {
                 writer.WriteLine("cd " + SourceRootDirectory);
-                writer.WriteLine("Open " + Host);
+                writer.WriteLine("open " + Host);
                 writer.WriteLine(Username);
                 writer.WriteLine(Password);
                 writer.WriteLine("cd " + DestinationRootDirectory);
 
                 foreach (var file in Files)
                 {
-                    writer.WriteLine("push " + file);    
+                    writer.WriteLine("put " + file);    
                 }
 
                 writer.WriteLine("quit");
