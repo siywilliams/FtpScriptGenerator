@@ -17,7 +17,7 @@ namespace FtpScriptGenerator
         {
             using (var writer = File.CreateText(FilePath))
             {
-                writer.WriteLine("pushd " + SourceRootDirectory);
+                writer.WriteLine("cd " + SourceRootDirectory);
                 writer.WriteLine("open " + Host);
                 writer.WriteLine(Username);
                 writer.WriteLine(Password);
@@ -29,7 +29,6 @@ namespace FtpScriptGenerator
                 }
 
                 writer.WriteLine("quit");
-                writer.WriteLine("popd");
             }
         }
     }
